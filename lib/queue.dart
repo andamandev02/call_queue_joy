@@ -618,8 +618,9 @@ class _QueueScreenState extends State<QueueScreen> {
     }
     String usbPath =
         // '${externalDir.parent.parent.parent.parent.parent.parent.path}/CF09-E67B/images';
-        '${externalDir.parent.parent.parent.parent.parent.parent.path}/DB1D-7C56/images';
-    // '${externalDir.parent.parent.parent.parent.parent.parent.path}/2627-6E53/images';
+        // '${externalDir.parent.parent.parent.parent.parent.parent.path}/DB1D-7C56/images';
+        '${externalDir.parent.parent.parent.parent.parent.parent.path}/1D67-6721/images';
+    // '/mnt/usb/0500-5AD3/images_joy';
     if (usbPath == null) {
       throw 'USB path is null';
     }
